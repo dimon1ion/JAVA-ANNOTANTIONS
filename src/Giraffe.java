@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Giraffe {
+@Mammal(color = 0x121212)
+public class Giraffe extends Animal{
+
 }

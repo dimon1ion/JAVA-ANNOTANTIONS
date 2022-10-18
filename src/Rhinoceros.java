@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Rhinoceros {
+public class Rhinoceros extends Animal{
+
 }

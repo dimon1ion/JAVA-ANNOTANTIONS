@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Hippopotamus {
+@Mammal(color = 0x151515)
+public class Hippopotamus extends Animal{
+
 }

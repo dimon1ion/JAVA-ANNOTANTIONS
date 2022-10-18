@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public @interface Mammals {
+import java.lang.annotation.*;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+@Inherited
+public @interface Mammals {
+    Mammal[] value();
 }
